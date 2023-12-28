@@ -1,0 +1,10 @@
+export const selectMonth = (state) => state.changeMonthReducer.currentMonth;
+export const selectYear = (state) => state.changeMonthReducer.currentYear;
+export const selectPreviousMonth = (state) => state.changeMonthReducer.quantityOfPreviousMonth;
+export const selectCurrentMonth = (state) => state.changeMonthReducer.quantityDaysOfCurrentMonth;
+export const selectNextMonth = (state) => state.changeMonthReducer.quantityOfNextMonth;
+export const selectShowModalAddIdea = (state) => state.changeModalIdeaReducer.showModalAddIdea;
+export const selectShowModalEditIdea = (state) => state.changeModalIdeaReducer.showModalEditIdea;
+export const selectShowDatePicker = (state) => state.changeDatePickerReducer.showDatePicker;
+export const selectUserChooseDate = (state) => state.changeUserChooseDateReducer.userChooseDate;
+export const selectData = (state) => state.dataReducer;

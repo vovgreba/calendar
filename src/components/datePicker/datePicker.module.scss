@@ -1,0 +1,32 @@
+.wrapp {
+  width: 100px;
+  height: 200px;
+  background-color: #c7b3b3;
+}
+
+.inputDate {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+  appearance: none;
+  background-color: #fff;
+  cursor: text;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  width: 100px;
+}
+
+.buttonOfDatePicker {
+  padding: 10px 10px;
+  font-size: 14px;
+  background-color: #3886d9;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 10px;
+  text-transform: capitalize;
+}

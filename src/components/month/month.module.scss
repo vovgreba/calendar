@@ -1,0 +1,36 @@
+.wrapp {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.wrappDate {
+  display: flex;
+  align-items: center;
+}
+
+.left {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.right {
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.month {
+  font-size: 16px;
+  margin: 0;
+}
+.calendarIcon {
+  position: relative;
+  border-radius: 5px;
+  border: 2px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  img {
+    width: 25px;
+    height: 25px;
+  }
+}

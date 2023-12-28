@@ -1,0 +1,31 @@
+.wrapp {
+  position: relative;
+  max-width: 100%;
+  min-height: 130px;
+  border: 1px solid rgb(192, 190, 190);
+  padding: 5px;
+  transition: border 0.3s;
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .title {
+    background-color: rgb(77, 76, 76);
+    color: #fff;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  &:hover {
+    border: 1px solid rgb(124, 123, 123);  }
+}
+.today {
+  border: 2px solid rgb(192, 190, 190);
+  background-color: rgb(209, 207, 207);
+}
+.userChoose {
+  border: 2px solid #3886d9;
+  transition: border 0.3s;
+  &:hover {
+    border: 2px solid rgb(124, 123, 123);  }
+}
